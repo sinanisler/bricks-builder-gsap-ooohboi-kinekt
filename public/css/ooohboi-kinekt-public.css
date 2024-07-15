@@ -1,0 +1,43 @@
+/**
+ * Kinekt CSS
+ */
+/**/
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+ /* scroll animations */
+body.bricks-is-frontend .kinekt-fade-from-to, 
+body.bricks-is-frontend .kinekt-text-effect, 
+body.bricks-is-frontend .kinekt-image-effects {
+    opacity: 0;
+    will-change: transform;
+    will-change: opacity;
+}
+body.bricks-is-frontend .kinekt-image-effects, 
+body.bricks-is-frontend .kinekt-image-effects > a {
+    line-height: 0;
+    margin: 0;
+}
+body.bricks-is-frontend .kinekt-image-effects > img, 
+body.bricks-is-frontend .kinekt-image-effects > a, 
+body.bricks-is-frontend .kinekt-image-effects > a > img {
+    will-change: transform;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+body.bricks-is-frontend .kinekt-image-effects > img, 
+body.bricks-is-frontend .kinekt-image-effects > a > img {
+    object-fit: cover;
+}
+
+body.bricks-is-frontend .kinekt-image-effects.effect-parallax, 
+body.bricks-is-frontend .kinekt-image-effects.effect-parallax > a {
+    position: relative;
+    overflow: hidden;
+}
+
+body.bricks-is-frontend .kinekt-image-effects.effect-parallax > img, 
+body.bricks-is-frontend .kinekt-image-effects.effect-parallax > a > img {
+    position: relative !important;
+}

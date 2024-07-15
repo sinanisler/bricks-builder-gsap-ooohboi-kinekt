@@ -1,0 +1,770 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OoohBoi Kinekt\n"
+"POT-Creation-Date: 2024-02-17 16:01+0100\n"
+"PO-Revision-Date: 2024-02-17 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ooohboi-kinekt.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:20
+msgid "Animation triggers"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:30
+msgid ""
+"When to trigger the animation? For instance: When the [TOP] of this element "
+"hits the [CENTER] of the Viewport ... with an offset of [10%]."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:39
+msgid "Custom code?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:40
+msgid ""
+"Define your own Start and End animation code. NOTE: You can access the "
+"current element via the \"object\" instance!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:54
+msgid "Start animation:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:55
+msgid ""
+"For instance, the following is an arrow function that returns a string: () "
+"=> \"top\" + `+=${object.offsetHeight/2}` + \" bottom\". It says: whenever "
+"the element's top + the element's height devided by 2 hits the viewport's "
+"bottom."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:66
+msgid "End animation:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:76
+msgid "Start animation when:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:79
+#: bricks/ooohboi-kinekt-controls-common-after.php:135
+msgid "Top of the element..."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:80
+#: bricks/ooohboi-kinekt-controls-common-after.php:136
+msgid "Center of the element..."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:81
+#: bricks/ooohboi-kinekt-controls-common-after.php:137
+msgid "Bottom of the element..."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:92
+#: bricks/ooohboi-kinekt-controls-common-after.php:148
+msgid "...hits the:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:95
+#: bricks/ooohboi-kinekt-controls-common-after.php:151
+msgid "Top of the viewport"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:96
+#: bricks/ooohboi-kinekt-controls-common-after.php:152
+msgid "Center of the viewport"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:97
+#: bricks/ooohboi-kinekt-controls-common-after.php:153
+msgid "Bottom of the viewport"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:108
+msgid "Offset (start):"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:121
+msgid "Start Trigger element: "
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:122
+msgid ""
+"The target element ID. If provided, the animation points (both Start and "
+"End) shall refer to that element instead of the current one."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:132
+msgid "End animation when:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:164
+msgid "Offset (end):"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:177
+msgid "End Trigger element: "
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:178
+msgid ""
+"The target element ID. If provided, the animation point (the End) shall "
+"refer to that element instead of the current one."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:190
+msgid "Toggle Actions"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:201
+msgid ""
+"toggleActions give us fine-grained control over our animations when it comes "
+"to playing, pausing, restarting, etc."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:210
+msgid "onEnter"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:211
+msgid ""
+"This action refers to a moment when a designated element enters the "
+"viewport. It's the moment when the START trigger point in met. Most likely "
+"you will want to use \"Play\" here."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:223
+msgid "onLeave"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:224
+msgid ""
+"This action refers to a moment when a designated element leaves the "
+"viewport. It's the moment when the END trigger point in met."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:236
+msgid "onEnterBack"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:237
+msgid ""
+"This action happens when the associated element re-enters the viewport from "
+"the top during backward scrolling."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:249
+msgid "onLeaveBack"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:250
+msgid ""
+"This action happens when the associated element leaves the viewport during "
+"backward scrolling."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:264
+msgid "Stagger"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:275
+msgid ""
+"A stagger is a technique used to space out the start times of multiple "
+"animations so that they don't all start at the same time. This will work "
+"with \"Text Effects\" and \"From - To\" animation types -- in case the "
+"\"Animate children?\" option is enabled."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-after.php:284
+msgid "Stagger amount (in seconds)"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-before.php:20
+msgid "Your animation will function and be visible in front-end only!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-before.php:25
+msgid "Activate Kinekt?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-before.php:26
+msgid "This will enable Kinekt for the current element"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common-before.php:35
+msgid "Animation Keypoints"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:18
+msgid "Animation duration (in seconds)"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:29
+msgid "Animation delay (in seconds)"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:41
+msgid "Animation easing"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:54
+msgid "Text Split Type"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:55
+msgid ""
+"If you split to lines, you will be animating lines. If you split to words, "
+"you will animate the wrods."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:64
+msgid "Split text into:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:67
+msgid "Lines"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:68
+msgid "Words"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:78
+msgid "Mask text lines?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:79
+msgid "This will set the text line to \"overflow: hidden\""
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:95
+msgid "Image Effects"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:105
+msgid ""
+"BEWARE! Image effects require the \"HTML tag\" to be set on the target "
+"Image. Check if that's the case under the Image \"Content\" group. Either of "
+"the available HTML tags will work."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:114
+msgid "Animation effect"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:117
+msgid "Reveal"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:118
+msgid "Parallax"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:128
+msgid "Reveal direction"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:131
+msgid "Reveal from left"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:132
+msgid "Reveal from right"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:133
+msgid "Reveal from top"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:134
+msgid "Reveal from bottom"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:145
+msgid "Direction offset"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:146
+msgid ""
+"This will create an initial position. Only a positive number will have an "
+"effect!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:160
+msgid "Speed offset"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:161
+msgid ""
+"This will make the image reveal slower than the cover (in seconds, range "
+"0.01 - 0.5)."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:174
+msgid "Fade in?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:175
+msgid "If the reveal effect should fade in"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:189
+msgid "Image cover color"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:207
+msgid "Parallax volume"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:208
+msgid "NO NEED FOR A UNIT! The more you add, the less you get."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:221
+msgid "Direction"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:224
+msgid "Vertical"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:225
+msgid "Horizontal"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:237
+msgid "Panning"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:241
+msgid "Positive"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:242
+msgid "Negative"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:256
+msgid "Animatable properties"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:267
+msgid "Choose from the available properties which can be animated."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:277
+msgid "\"FROM - TO\" point"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:282
+msgid "Choose property to animate"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:287
+#: bricks/ooohboi-kinekt-controls-common.php:305
+msgid "Value - From"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:296
+#: bricks/ooohboi-kinekt-controls-common.php:312
+msgid "Value - To"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:320
+#: bricks/ooohboi-kinekt-controls-common.php:328
+#: bricks/ooohboi-kinekt-controls-common.php:336
+#: bricks/ooohboi-kinekt-controls-common.php:344
+#: bricks/ooohboi-kinekt-controls-common.php:352
+#: bricks/ooohboi-kinekt-controls-common.php:360
+#: bricks/ooohboi-kinekt-controls-common.php:368
+msgid "NOTE:"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:321
+msgid ""
+"Expressions accepted! You can access the current element via the \"object\" "
+"instance if you like. For example, if you enter the arrow function \"() => "
+"`${object.offsetWidth}`\" into the \"Value - To\", the object will move to "
+"right for the value of object's width."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:329
+msgid ""
+"Opacity range is from 0 to 1. 0 = fully transparent, 1 = no transparency, "
+"0.45 = transparency of 45%"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:337
+msgid ""
+"Value of: 1 = no scale (or 100%), 0.25 = scaled down to 25%, 1.85 = scaled "
+"up to 185%"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:345
+msgid ""
+"Can be positive or negative. CSS unit must exist at the end of the value, "
+"for instance: 10px, 0.5vw, 23%, 1em, 3rem, etc."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:353
+msgid "Can be positive or negative, in degrees! No CSS unit required!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:361
+msgid ""
+"You may leave the \"Value - From\" empty if the background color has been "
+"defined elsewhere. Otherwise, it is strongly advised to define it here!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:369
+msgid ""
+"You may leave the \"Value - From\" empty if the text color has been defined "
+"elsewhere. Otherwise, it is strongly advised to define it here!"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:393
+msgid "Markers"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:404
+msgid ""
+"Markers are used to display visual indicators that represent the start and "
+"end positions of the scroll trigger."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:413
+msgid "Show markers?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:414
+msgid "These should help you with the trigger point"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:429
+msgid "Scrubbing"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:440
+#: bricks/ooohboi-kinekt-controls-common.php:450
+msgid ""
+"Scrubbing refers to the ability to control the progress of an animation "
+"based on the scroller position."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:449
+msgid "Use the Scrub?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:463
+msgid "Scrub amount"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:464
+msgid "Value of 0.2 takes 0.2 second to \"catch up\" to the scrollbar"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:479
+msgid "Pinning"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:490
+msgid ""
+"Pinning makes the element stick in place while the scroll position is "
+"between the start and end elements/values."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:499
+msgid "Pin this element?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:512
+msgid "Pin spacing?"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:513
+msgid "This will prevent a subsequent element(s) overflow."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:529
+msgid "Transform Origin"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:540
+msgid "It defines the point around which a transformation is applied."
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:549
+msgid "Choose"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:552
+msgid "Top Left"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:553
+msgid "Top Center"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:554
+msgid "Top Right"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:555
+msgid "Center Left"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:556
+msgid "Center"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:557
+msgid "Center Right"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:558
+msgid "Bottom Left"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:559
+msgid "Bottom Center"
+msgstr ""
+
+#: bricks/ooohboi-kinekt-controls-common.php:560
+msgid "Bottom Right"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: bricks/ooohboi-kinekted.php:128
+msgid "OoohBoi Kinekt"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:148
+msgid "Animation type"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:151
+msgid "From - To"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:179
+msgid "Text effects"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:187
+msgid "Image effects"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:195
+msgid "Animate children?"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:196
+msgid "This will apply the animation to all child elements instead"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:235
+msgid "Ease In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:236
+msgid "Ease Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:237
+msgid "Ease in.Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:238
+msgid "Power In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:239
+msgid "Power Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:240
+msgid "Power InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:241
+msgid "Circ In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:242
+msgid "Circ Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:243
+msgid "Circ InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:244
+msgid "Expo In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:245
+msgid "Expo Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:246
+msgid "Expo InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:247
+msgid "Sine In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:248
+msgid "Sine Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:249
+msgid "Sine InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:250
+msgid "Elastic In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:251
+msgid "Elastic Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:252
+msgid "Elastic InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:253
+msgid "Bounce In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:254
+msgid "Bounce Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:255
+msgid "Bounce InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:256
+msgid "Back In"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:257
+msgid "Back Out"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:258
+msgid "Back InOut"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:273
+msgid "Opacity"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:274
+msgid "X position"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:275
+msgid "Y position"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:276
+msgid "scaleX"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:277
+msgid "scaleY"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:278
+msgid "skewX"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:279
+msgid "skewY"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:280
+msgid "Rotation"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:281
+msgid "Background Color"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:282
+msgid "Color (text)"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:297
+msgid "Play"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:298
+msgid "Pause"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:299
+msgid "Resume"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:300
+msgid "Reverse"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:301
+msgid "Restart"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:302
+msgid "Reset"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:303
+msgid "Complete"
+msgstr ""
+
+#: bricks/ooohboi-kinekted.php:304
+msgid "None"
+msgstr ""
+
+#: includes/class-ooohboi-kinekt.php:215
+#, php-format
+msgid "OoohBoi Kinekt plugin requires Bricks Builder version %s or greater."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://kinekt.ooohboi.space/index.php/ooohboi-kinekt-documentation/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Breathe life into your Bricks Builder creations with Kinekt, a nifty addon "
+"that lets you animate your widgets on scroll."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "OoohBoi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ooohboi.space"
+msgstr ""
