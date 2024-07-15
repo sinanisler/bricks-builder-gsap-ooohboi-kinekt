@@ -124,8 +124,8 @@ class OoohBoi_Kinekted {
     public static function kinekt_control_group( $control_groups ) {
 
         $control_groups[ 'ooohboi_kinekt_controls' ] = [
-            'tab'   => 'style', 
-            'title' => esc_html__( 'OoohBoi Kinekt', 'ooohboi-kinekt' ),
+            'tab'   => 'content', 
+            'title' => 'ANIMATIONS',
         ];
 
         return $control_groups;
