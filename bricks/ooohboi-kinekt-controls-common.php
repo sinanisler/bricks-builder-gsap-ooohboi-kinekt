@@ -363,6 +363,10 @@ $controls[ 'animation_properties' ] = [
                 [ 'property', '=', 'backgroundColor' ], 
             ], 
         ], 
+
+
+
+        
         'info_color' => [
             'type'  => 'separator',
             'label' => esc_html__( 'NOTE:', 'ooohboi-kinekt' ),
@@ -370,7 +374,10 @@ $controls[ 'animation_properties' ] = [
             'required' => [
                 [ 'property', '=', 'color' ], 
             ], 
-        ], 
+        ],
+        
+        
+
 /*         'default' => [
             [
                 'property' => 'opacity',

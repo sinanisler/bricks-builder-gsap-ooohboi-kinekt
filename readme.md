@@ -12,6 +12,4 @@ Because I want to make some UI changes, UX changes and some feature advancements
 - Add all possible CSS features to animate.
 
 
-I have more ideas to add or remove but these are my main objects for now.
-
 
