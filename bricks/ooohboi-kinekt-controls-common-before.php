@@ -17,7 +17,7 @@ $controls[ 'info_intro' ] = [
     'tab' => 'content', 
     'type'  => 'info', 
     'clearable' => true, 
-    'content' => esc_html__( 'Your animation will function and be visible in front-end only!', 'ooohboi-dawg' ),
+    'content' => '',
 ];
 $controls[ 'animation_activate' ] = [
     'group'    => 'ooohboi_kinekt_controls', 
