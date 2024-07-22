@@ -2,3 +2,9 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+
+
+[data-control-group="ooohboi_kinekt_controls"]{
+padding-bottom:80px;
+}
